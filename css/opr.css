@@ -1,0 +1,41 @@
+
+h1 {
+	font-size: 3rem;
+	color: #0b0b0b;
+	text-align: center;
+}
+
+.tabs {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.tab-list {
+	padding-bottom: 2rem;
+}
+
+.tab {
+	border: #00000096;
+	border-radius: 100px;
+	display: inline-block;
+	text-decoration: none;
+	padding: .5rem 1rem;
+	color: rgb(102, 102, 102);
+	font-weight: 700;
+	background: rgba(252, 254, 255, 0.2);
+}
+
+.tab.active {
+	color: white;
+	background: rgb(79, 76, 105);
+	border: 1px solid rgb(255, 255, 255);
+}
+
+.tab-content {
+	background: linear-gradient(to bottom right, #4f4c69, #b3b2b9);
+  box-shadow: 0 15px 20px -15px rgba(0, 0, 0, 0.3), 0 35px 50px -25px rgba(0, 0, 0, 0.3), 0 85px 60px -25px rgba(0, 0, 0, 0.1);
+	display: none;
+	padding: 1.5rem;
+	color: #ffffff;
+	font-size:large
+}

@@ -1,0 +1,29 @@
+.holder {
+  background-color:#ffffff;
+  width:100%;
+  height:250px;
+  overflow:hidden;
+  padding:;
+  font-family:Helvetica;
+}
+.holder .mask {
+  position: relative;
+  left: 0px;
+  top:;
+  width:100%;
+  height:240px;
+  overflow: hidden;
+}
+.holder ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+  position: relative;
+}
+.holder ul li {
+  padding:10px 0px;
+}
+.holder ul li a {
+  color:#0d001a;
+  text-decoration:none;
+}
